@@ -9,7 +9,7 @@
 	<name>Mini maven project for testing builds</name>
 
 	<properties>
-		<version.java>1.7</version.java>
+		<version.java>1.8</version.java>
 		<version.maven>3.0.4</version.maven>
 
 		<version.slf4j-api>1.7.2</version.slf4j-api>
