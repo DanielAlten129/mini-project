@@ -13,7 +13,7 @@ FROM openjdk:17-jdk-slim
 WORKDIR /app
 
 # Copia el JAR desde la etapa anterior
-COPY --from=builder /app/target/*.jar app.jar
+COPY --from=builder /app/target/mini-project-0.1-SNAPSHOT.jar app.jar
 
 # Puerto (opcional)
 EXPOSE 8080
